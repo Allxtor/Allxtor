@@ -1,0 +1,11 @@
+kun = int(input("x : ?"))
+ball = int(input("y : ?"))
+
+if kun - 2 < ball:
+print("kun kan ball")
+
+elif kun + 2 > ball:
+print("kun likes balls")
+
+else:
+print("kun loves balls")
